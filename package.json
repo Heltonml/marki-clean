@@ -1,0 +1,26 @@
+{
+  "name": "marki-clean-api",
+  "version": "1.0.0",
+  "description": "Project rest api",
+  "main": "app.js",
+  "scripts": {
+      "dev": "nodemon src/app",
+      "start": "node src/app",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clean",
+    "architecture",
+    "restful",
+    "api"
+  ],
+  "author": "Helton M Leite",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
